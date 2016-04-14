@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link rel="icon" href="tree.jpeg">
 	<link rel = "stylesheet" type = "text/css" href = "style.css">
 	<link rel = "stylesheet" type = "text/css" href = "map.css">
 	<title>Caroline in the Woods</title>
 </head>
 <body>
-<h1>
+<h1 id= "banner" role="banner">
 	Caroline in the Woods
 </h1>
 
@@ -30,16 +31,16 @@
 </ul>
 	<h2>My links</h2>
 	<br/>
-	<a href= "https://www.google.com"  style="color: rgb(50, 50, 50)" target="_blank">Enter my site</a>
+	<a href= "https://www.google.com" class="mainlink" style="color: rgb(50, 50, 50)" target="_blank" >Enter my site</a>
 
 	<!-- provide link  and open it in a new tab through target command -->
 
 	<p>Here are some great pictures I would like to share: <a href="http://www.facebook.com" style="color: rgb(100, 100, 100)">View my Facebook</a></p>
 <br/>
 <p>Contact me via <a href="mailto:carolinewood504@gmail.com" style="color: rgb(100, 100, 100)" >email</a></p>
-
+<div class="center-iframe">
 <iframe src="http://createaclickablemap.com/map.php?id=47216&online=true" width="900" height="525" style="border: none;"></iframe>
-
+</div>
 <script>if (window.addEventListener){ window.addEventListener("message", function(event) { if(event.data.length >= 22) { if( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } else if (window.attachEvent){ window.attachEvent("message", function(event) { if( event.data.length >= 22) { if ( event.data.substr(0, 22) == "__MM-LOCATION.REDIRECT") location = event.data.substr(22); } }, false); } </script>
 </body>
 </html>
